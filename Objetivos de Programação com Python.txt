@@ -1,0 +1,20 @@
+1- Objetivo Final(especifico, quebrando em passos de estudo):
+ - Quero criar um jogo simples com o Python.
+
+2 - Data definida para entrega deste objetivo:
+ - 01/01/2024 (dizer publicamente que ira fazer e mostrar o game)
+
+3 - Consumir pelo menos 1:30hr/dia da linguagem estudada.	
+	- ( dentro deste tempo de estudo fazer:
+		- Exercicios do livro.
+		- Fazer os Projetos ou exericio para praticar.
+
+4 - Documentar a minha evolução.
+	- Colocar todo projeto/exercicios no git+github
+	- Compartilahr com alguem o projeto parcial.
+	- Escrever como fez aquilo.
+
+5 - Seguir estes habitos por pelo menos 1 més.
+
+
+Müller não desista, você ainda vai ser um Game Developer.
