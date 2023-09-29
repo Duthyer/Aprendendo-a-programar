@@ -121,3 +121,4 @@ guns = 'Ak47'
 
 if guns not in banned_guns:
     print("\n"+guns.title()+" "+"its allowed.")
+    
