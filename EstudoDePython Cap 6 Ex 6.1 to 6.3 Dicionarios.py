@@ -58,3 +58,4 @@ print("\nListas é basicamente um:\n"+glossario['listas']+"."
       +"\nA tupla é basicamente uma:\n"+glossario['tupla']+"."
       +"\nO print é um:\n"+glossario['print']+"."
     )
+
