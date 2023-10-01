@@ -118,7 +118,7 @@ cities_info = {'minas gerais':{'pais':"brasil", 'população':"11 milhoes", 'fat
 
 for citi, cidades in cities_info.items():
     print("O pais é"+" "+cidades['pais']+" "+"a população é de:"+
-         " "+cidades['população']+" "+"um fato sobre ela é "+          #exercicio ainda em andamente, encontro dificuldades para incluir cities em for para aprensentar cada cidade.
+         " "+cidades['população']+" "+"um fato sobre ela é "+           #exercicio ainda em andamente, encontro dificuldades para incluir cities em for para aprensentar cada cidade.
          " "+cidades['fato']+"e a cidade é"
          )
         
