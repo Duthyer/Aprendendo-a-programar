@@ -29,7 +29,7 @@ pessoa_eu = {'nome':'müller', 'idade':25, 'cidade':'Minas Gerais'} #Aqui é cri
 #abaixo é imprimido a informação contido no dicionario, sendo eles chaves-valore.
 print("Meu sobrenome é"+" "+pessoa_eu['nome'])                     
 print("Minha idade é"+" "+str(pessoa_eu['idade']))
-print("Minha cidade é"+" "+pessoa_eu['cidade']+"\n")
+print("Minha cidade é"+" "+pessoa_eu['cidade']+"\n") 
 
 #abaixo é criado mais 2 novos dicionarios e uma lista guardando os três dicionarios.
 pessoa_1 = {'nome':'julia', 'idade':22,

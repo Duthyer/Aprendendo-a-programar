@@ -71,3 +71,4 @@ for names in pessoas:
         print("Olá"+" "+names.title()+" "+"venha participar de nossa enquete!")
         
        
+ 
