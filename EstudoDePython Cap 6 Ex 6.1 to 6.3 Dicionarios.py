@@ -17,9 +17,9 @@
 
 #6.1
 
-eu = {'Muller':'Miguel', 'idade':25, 'cidade':'Minas Gerais'} #Aqui é criado um dicionario {}.
+eu = {'nome':'Miguel', 'idade':25, 'cidade':'Minas Gerais'} #Aqui é criado um dicionario {}.
 
-print("Meu sobrenome é"+" "+eu['Muller'])                     #Aqui e na linha abaixo eu imprimo as informaçoes de cada objeto dentro do dicionario.
+print("Meu sobrenome é"+" "+eu['nome'])                     #Aqui e na linha abaixo eu imprimo as informaçoes de cada objeto dentro do dicionario.
 print("Minha idade é"+" "+str(eu['idade']))
 print("Minha cidade é"+" "+eu['cidade'])
 
