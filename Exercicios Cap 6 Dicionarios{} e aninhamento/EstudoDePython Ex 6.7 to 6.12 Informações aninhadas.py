@@ -22,7 +22,6 @@
 
 
 #RESPOSTAS DOS EXERCICIOS
-
 #6.7
 #Pessoas: Comece com o programa que você escreveu no Exercício 6.1
 pessoa_eu = {'nome':'müller', 'idade':25, 'cidade':'Minas Gerais'} #Aqui é criado um dicionario {}.

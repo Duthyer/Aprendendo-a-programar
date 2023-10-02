@@ -10,7 +10,6 @@
 # • testes para verificar se um item está em uma lista; • testes para verificar se um item não está em uma lista.
 
 #RESPOSTAS DOS EXERCICIOS
-
 #5.1
 #• Crie pelo menos dez testes. Tenha no mínimo cinco testes avaliados como True e outros cinco avaliados como False.
 

@@ -14,7 +14,6 @@
 #Utilize o caractere de quebra de linha (\n) para inserir uma linha em branco entre cada par palavra-significado em sua saída.
 
 #RESPOSTAS DOS EXERCICIOS
-
 #6.1
 
 eu = {'nome':'Miguel', 'idade':32, 'cidade':'Minas Gerais'} #Aqui é criado um dicionario {}.

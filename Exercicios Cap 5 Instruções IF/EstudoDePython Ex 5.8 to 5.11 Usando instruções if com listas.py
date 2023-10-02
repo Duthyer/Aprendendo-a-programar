@@ -26,7 +26,6 @@
 
 
 #RESPOSTAS DOS EXERCICIOS
-
 #5.8
 
 users = ['admin', 'luthier', 'millerm',
