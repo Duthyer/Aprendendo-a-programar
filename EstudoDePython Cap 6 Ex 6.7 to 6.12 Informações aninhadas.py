@@ -86,7 +86,7 @@ for name, info in favorite_places.items():  #O info representa cada lista de uma
     print("\nO lugar favorito do(a)"+
           " "+name.title()+" "+"é:\n"
           )
-    for infos in info:  # infos é a variavel criada para cada valor dentro de cada lista, no caso representando os valores de cada dicionario.
+    for infos in info:  #infos é a variavel criada para cada valor dentro de cada lista, no caso representando os valores de cada dicionario.
         print(infos)
  
 #6.10 
@@ -104,24 +104,24 @@ for name, fav_number in numeros_fav.items(): #Aqui utilizamos name para represen
         print(fav_numbers)
 
 
-#6.11 – Cidades: Crie um dicionário chamado cities. Use os nomes de três cidades como chaves em seu dicionário.
-# Crie um dicionário com informações sobre cada cidade e inclua o país em que a cidade está localizada, a população aproximada e um fato sobre essa cidade. 
-# As chaves do dicionário de cada cidade devem ser algo como country, population e fact. 
-# Apresente o nome de cada cidade e todas as informações que você armazenou sobre ela.
-#Crie um dicionário chamado cities.       
-cities = {'minas gerais', 'los angels', 'jerusalém'} #Use os nomes de três cidades como chaves em seu dicionário.
-#Crie um dicionário com informações sobre cada cidade e inclua o país em que a cidade está localizada, a população aproximada e um fato sobre essa cidade.
-cities_info = {'minas gerais':{'pais':"brasil", 'população':"11 milhoes", 'fato':"melhor gastronomia"}, 
-               'los angeles':{'pais':"estados unidos", 'população':"3 milhoes", 'fato':"cidade rica e empoderada!"},
-               'jerusalem':{'pais':"israel", 'população':"700 mil", 'fato':"cidade santa!", }
-               }
+#6.11 
+#Cidades: Crie um dicionário chamado cities.
+#Crie um dicionário chamado cities.     
+#Crie um dicionário com informações sobre cada cidade e inclua o país em que a cidade está localizada, a população aproximada e um fato sobre essa cidade. 
+#Use os nomes de três cidades como chaves em seu dicionário. 
+#Abaixo criamos dicionarios dentro de um dicionario.
+cities = {'minas gerais':{'pais':"brasil", 'população':"11 milhoes", 'fato':"melhor gastronomia"},      
+          'los angels':{'pais':"estados unidos", 'população':"3 milhoes", 'fato':"cidade rica e empoderada!"},
+          'jerusalém':{'pais':"israel", 'população':"700 mil", 'fato':"é uma cidade santa!", }
+          } 
 
-for citi, cidades in cities_info.items():
-    print("O pais é"+" "+cidades['pais']+" "+"a população é de:"+
-         " "+cidades['população']+" "+"um fato sobre ela é "+           #exercicio ainda em andamente, encontro dificuldades para incluir cities em for para aprensentar cada cidade.
-         " "+cidades['fato']+"e a cidade é"
-         )
-        
+# Apresente o nome de cada cidade e todas as informações que você armazenou sobre ela.
+for citie, citie_info in cities.items():
+    print(
+        "O nome da cidade é"+" "+citie.title()+", "+"o pais é"+ #citie é a Chave de cada dicionario.
+        " "+citie_info['pais'].title()+", "+"população aproximada de"+ #citie_info é um valor de cada chave.
+        " "+citie_info['população']+", "+"um fato sobre a cidade"+" "+citie_info['fato']
+        )
 
 
         

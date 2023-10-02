@@ -17,7 +17,7 @@
 
 #6.1
 
-eu = {'nome':'Miguel', 'idade':25, 'cidade':'Minas Gerais'} #Aqui é criado um dicionario {}.
+eu = {'nome':'Miguel', 'idade':32, 'cidade':'Minas Gerais'} #Aqui é criado um dicionario {}.
 
 print("Meu sobrenome é"+" "+eu['nome'])                     #Aqui e na linha abaixo eu imprimo as informaçoes de cada objeto dentro do dicionario.
 print("Minha idade é"+" "+str(eu['idade']))
